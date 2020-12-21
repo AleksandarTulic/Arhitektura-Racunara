@@ -1,6 +1,6 @@
 section .text
-global funkcija
-funkcija:
+global sum
+sum:
 
 	mov rbp, rsp
 	mov rdi, [rbp + 8]
