@@ -1,6 +1,6 @@
 section .text
-global funkcija
-funkcija:
+global init
+init:
 
 	mov rbp, rsp
 	mov rdi, [rbp + 8]
