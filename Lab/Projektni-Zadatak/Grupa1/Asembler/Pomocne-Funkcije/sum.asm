@@ -9,7 +9,7 @@ sum:
 
 	push rbx
 	push rcx
-	mov rcx, 8
+	mov rcx, 7
 	mov rbx, rax
 
 	.for:
